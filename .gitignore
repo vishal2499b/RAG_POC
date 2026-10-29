@@ -1,0 +1,20 @@
+# Secrets - never commit
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# App data (your PDFs and the vector database)
+backend/data/
+backend/chroma_db/
+
+# Frontend (React) - added later
+node_modules/
+dist/
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
